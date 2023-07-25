@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #C8C8C8;
+
+}
+
+.cuadrado {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 4;
+}
+
+/* CSS INICIO/*/
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100%;
+}
+
+.corona {
+    filter: invert(0.4);
+    aspect-ratio: 9/8;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.remeras {
+    position: relative;
+    display: inline-block;
+    width: 290px;
+    height: 300px;
+    margin-left: 57px;
+    margin-right : 90px;
+    margin-top: 200px;
+    transition: transform 1s;
+    z-index: 1;
+}
+.remeras:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.4);
+    z-index: 3;
+}
+
+.blur {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+}
+
+.remeras:hover ~ .blur {
+    z-index: 2;
+}
+
+.precio {
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-left: 57px;
+    top: -512px;
+    width: 290px;
+    height: 60px;
+}
+
+.precio2 {
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-left: 147px;
+    top: -512px;
+    width: 290px;
+    height: 60px;
+}
+
+.precio3 {
+    position: relative;
+    background: black;
+    display: inline-block;
+    margin-left: 147px;
+    top: -512px;
+    width: 290px;
+    height: 60px;
+}
+
+.money {
+    color: white;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+
+.money2 {
+    color: white;
+    margin-top: 4px;
+    margin-left: 60px;
+}
+
+.money3 {
+    color: white;
+    margin-top: 4px;
+    margin-left: 70px;
+}
+
+.pie {
+    background: rgb(163, 162, 162);
+    margin-top: 100px;
+    padding-top: 200px;
+    z-index: 1;
+}
+
+.contact {
+    position: absolute;
+    top: 2460px;
+    margin-left: 500px;
+}
+
+.tel {
+    position: absolute;
+    top: 2500px;
+    margin-left: -700px;
+    text-decoration: none;
+    color: black;
+}
+
+.tel1 {
+    position: absolute;
+    top: 2500px;
+    margin-left: -725px;
+    width: 20px;
+    height: 20px;
+}
+
+.gmail {
+    position: absolute;
+    top: 2530px;
+    margin-left: -697px;
+    text-decoration: none;
+    color: black;
+}
+
+.gmail1 {
+    position: absolute;
+    top: 2530px;
+    margin-left: -725px;
+    width: 20px;
+    height: 20px;
+}
+
+.maps {
+    position: absolute;
+    top: 2562px;
+    margin-left: -697px;
+    text-decoration: none;
+    color: black;
+}
+
+.maps1 {
+    position: absolute;
+    top: 2540px;
+    margin-left: -755px;
+    width: 80px;
+    height: 80px;
+}
+
+.redes {
+    position: absolute;
+    top: 2460px;
+    margin-left: 900px;
+}
+
+.insta {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 1500px;
+    margin-left: -325px;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: background 1s;
+    z-index: 5;
+}
+
+.insta:hover {
+    background: rgb(211, 211, 211);
+}
+
+.face {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 1500px;
+    margin-left: -274px;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: background 1s;
+}
+
+.face:hover {
+    background: rgb(211, 211, 211);
+}
+
+.twit {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    margin-top: 1500px;
+    margin-left: -220px;
+    background: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: background 1s;
+}
+
+.twit1 {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.twit:hover {
+    background: rgb(211, 211, 211);
+}
+
+.remeras2:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.4);
+    z-index: 3;
+}
+
+.blur {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+}
+
+.remeras2:hover ~ .blur {
+    z-index: 2;
+}
+
+icono {
+    background: white;
+}
+
+/* CSS DE REMERA 1/*/
+
+.cuadrado2 {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie2 {
+    background: black;
+    height: 300px;
+}
+
+.corona2 {
+    filter: invert(0.4);
+    aspect-ratio: 9/8;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.shirt {
+    height: 500px;
+    width: 500px;
+    margin-left: -10px;
+    margin-top: -10px;
+    transition: transform 1s;
+}
+
+.shirt:hover {
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -o-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(2.5);
+}
+
+.imgg {
+    margin-left: 400px;
+    margin-top: 90px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.paquete{
+    margin-top: 150px;
+}
+
+.titulo {
+    margin-top: -600px;
+    margin-left: 900px;
+}
+
+.cash {
+    margin-top: 40px;
+    margin-left: 953px;
+}
+
+.tallee {
+   position: absolute;
+   bottom: 230px;
+   right: 337px;
+ 
+}
+
+.selec {
+    width: 50px;
+    color:  grey;
+    border-color:grey;
+}
+
+.cant {
+    width: 46px;
+    left: 200px;
+    right: 90px; 
+    color:  grey;
+    border-color:rgb(0, 0, 0);
+}
+
+.re1{
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: -170px;
+}
+
+.re2 {
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.re3 {
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
